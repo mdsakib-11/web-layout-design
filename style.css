@@ -1,0 +1,262 @@
+/*Google Font Link Below*/
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*Default CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 16px;
+}
+.container{
+	width: 1140px;
+	margin: 0 auto;
+}
+.flex{
+	display: flex;
+}
+.flex-collumn{
+	flex-direction: column;
+}
+.flex-between{
+	justify-content: space-between;
+}
+.flex-center{
+	justify-content: center;
+}
+.align-center{
+	align-items: center;
+}
+a,li{
+	text-decoration: none;
+	list-style: none;
+}
+/*Header Css Start*/
+.leftLogo p {
+    font-size: 28px;
+    font-weight: bold;
+}
+.leftLogo {
+    width: 10%;
+}
+
+.navbar {
+    width: 50%;
+}
+
+.button {
+    width: 10%;
+}
+.navbar ul li {
+	display: inline-block;
+}
+
+.navbar nav ul li a {
+	color: #444;
+	padding: 15px;
+}
+
+.button a {
+    background: #533FF5;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 16px;
+    display: table-cell;
+}
+/*Hero Section Css Start*/
+.left-content {
+    width: 48%;
+    padding-top: 50px;
+}
+.right-image {
+    width: 45%;
+}
+.left-content h2 {
+    font-size: 34px;
+    width: 250px;
+    font-weight: 800;
+    padding: 22px 0px;
+}
+.hero-wrapper {
+    padding: 45px 0px;
+}
+.right-image img {
+    width: 100%;
+}
+.left-content p {
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 16px;
+    color: #9C9C9C;
+}
+.hero-buttons .button {
+    width: 23%;
+}
+.button-scondery a {
+    background: transparent;
+    color: #444;
+    border: 1px solid #666;
+}
+/*Sponsor Section Css Start*/
+.service-section {
+    padding: 46px 0px;
+}
+.service-title {
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 10px;
+}
+.single-service {
+    width: 12%;
+}
+.single-service img {
+    width: 100%;
+}
+/*Features  Section CSS Start*/
+#features-body{
+	background: #FFF8EF;
+}
+.title {
+    color: #404DFA;
+    font-weight: 600;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.feature-header {
+    width: 500px;
+    margin: auto;
+}
+
+.features-wrapper {
+    padding: 60px 0px;
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.para {
+    line-height: 30px;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 26px;
+    color: #9c9c9c;
+}
+.features-content {
+    width: 650px;
+    margin: 0 auto;
+}
+.single-feature {
+    width: 48%;
+    background: white;
+    border-radius: 5px;
+}
+
+.single-feature .f-image {
+    width: 100%;
+    margin-bottom: 18px;
+}
+
+.single-feature .f-image img {
+    width: 100%;
+}
+
+.f-content h5 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.f-content {
+    padding: 0px 7px;
+}
+.f-content p {
+    line-height: 26px;
+    font-weight: 500;
+    color: #9c9c9c;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+/*Customized Css Section Start*/
+.customized-wrapper {
+    width: 100%;
+}
+
+.leftcustomImage {
+    width: 42%;
+}
+
+.customized-details {
+    width: 55%;
+    padding: 105px 0px;
+}
+.leftcustomImage img {
+    width: 100%;
+}
+.customized-area {
+    padding: 52px 0px;
+}
+.customize-header .title {
+    text-align: left;
+}
+
+.customize-header .customize-heading h4 {
+    font-size: 28px;
+    width: 242px;
+    line-height: 36px;
+    margin-bottom: 12px;
+}
+
+.customize-header .para p {
+    width: 325px;
+    text-align: left;
+    color: #9c9c9c;
+}
+/*Supports Section CSS Start*/
+#supports{
+	background: #F4F8FB;
+}
+.leftSupportsImage {
+    width: 38%;
+}
+.supports-content {
+    width: 53%;
+    padding-top: 115px;
+}
+.leftSupportsImage img {
+    width: 100%;
+}
+.supports-content .customized-details {
+    padding: 0;
+}
+/*Advantage Section Css Start*/
+#advantage {
+    padding: 75px 0px;
+} 
+
+.advantageDetails {
+    width: 100%;
+    justify-content: center;
+}
+
+.leftAdv {
+    width: 40%;
+}
+
+.rightAdv {
+    width: 40%;
+}
+
+.single-adv {
+    width: 70%;
+    margin-bottom: 30px;
+}
+.single-adv img {
+    width: 100%;
+}
